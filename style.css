@@ -1,0 +1,40 @@
+#calculator{
+    background-color: #ffbb24;
+    border-radius: 12px;
+    width: 240px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+#calculator span{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.33);
+}
+
+#calculator #formula-input{
+    width: 100%;
+    margin-top: 8px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    border: 0;
+    text-align: center;
+}
+#calculator #formula-input:focus{
+    outline-width: 0;
+}
+
+#calculator #calc-history div{
+    height: 36px;
+    line-height: 36px;
+    margin-top: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#calculator #calc-history div.invalid{
+    color: tomato;
+    font-weight: bold;
+}

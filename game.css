@@ -1,0 +1,32 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid blck;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+#block{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    /*animation: block 2s infinite linear;*/
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
